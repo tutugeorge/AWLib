@@ -34,6 +34,11 @@ let pearsoncorelation (a:float seq, b:float seq) =
     sxy / sqrt (sx2*sy2)
 
 let r = pearsoncorelation(x,y)
+
+let b = r * (sdY/sdX)
+let A = meanY - b*meanX
+//let Y' = input |> Seq.map(fun (i,j) -> j+A) 
+
     
 
 
