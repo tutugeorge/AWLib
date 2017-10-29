@@ -37,7 +37,9 @@ let r = pearsoncorelation(x,y)
 
 let b = r * (sdY/sdX)
 let A = meanY - b*meanX
-//let Y' = input |> Seq.map(fun (i,j) -> j+A) 
+let Y' = input |> Seq.map(fun (i,j) -> j+A) 
+printf "%A" (Y' |> Seq.toList)
+
 
     
 
