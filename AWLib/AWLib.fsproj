@@ -57,6 +57,7 @@
     <None Include="Script.fsx" />
     <None Include="MathDotNet.fsx" />
     <Content Include="packages.config" />
+    <None Include="AccordDotNet2.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Accord">
